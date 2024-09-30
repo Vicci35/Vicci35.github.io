@@ -67,11 +67,11 @@ li a {
   display: flex;
 }
 .image {
-margin-right: 10px;
-margin-bottom: 10px;
-height: auto;
-width: 25%;
-object-fit: cover;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: auto;
+  width: 25%;
+  object-fit: cover;
 }
 p {
   position: relative;
@@ -80,16 +80,18 @@ p {
 .button {
   display: flex;
   justify-content: space-between;
-  
 }
 .button h6 {
   margin: 0;
   margin-left: 10px;
 }
 .button a {
-  margin-right: 10px
+  margin-right: 10px;
 }
-.content h2, h3, h4, p {
+.content h2,
+h3,
+h4,
+p {
   clear: both;
 }
 /*Gör så att huvudbilden ligger till vänster om texten*/
@@ -112,6 +114,9 @@ p {
   position: relative;
   clear: both;
 }
+.post p {
+  overflow: hidden;
+}
 .rightcolumn {
   width: 300px;
   height: 400px;
@@ -130,7 +135,7 @@ p {
   width: 60%;
   background-color: white;
   border: 1px solid black;
-  margin: 0 10px 20px 30px ;
+  margin: 0 10px 20px 30px;
   height: 400px;
 }
 
@@ -203,7 +208,7 @@ p {
     display: flex;
     flex-direction: column;
   }
-  .img-text{
+  .img-text {
     display: flex;
     flex-direction: column;
     margin-right: 10px;
@@ -212,7 +217,6 @@ p {
     order: -1;
     width: 100%;
     height: auto;
-
   }
   .navbar a {
     float: none;
